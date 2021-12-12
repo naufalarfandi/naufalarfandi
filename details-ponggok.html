@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Details</title>
+    <link
+      rel="stylesheet"
+      href="frontend/libraries/bootstrap/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant:200,400,700&&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="frontend/libraries/xzoom/dist/xzoom.css" />
+  </head>
+  <body>
+    <!-- Semantic elements -->
+    <!-- https://www.w3schools.com/html/html5_semantic_elements.asp -->
+
+    <!-- Bootstrap navbar example -->
+    <!-- https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
+    <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="index.html">
+          <img src="frontend/images/Staycation.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navb"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navb">
+          <ul class="navbar-nav ml-auto mr-3">
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link active" href="#">Daftar Wisata</a>
+            </li>
+          </ul>
+
+          <!-- Mobile button -->
+          <form class="form-inline d-sm-block d-md-none">
+            <button class="btn btn-login my-2 my-sm-0">
+              Masuk
+            </button>
+          </form>
+          <!-- Desktop Button -->
+        </div>
+      </nav>
+    </div>
+    <main>
+      <section class="section-details-header"></section>
+      <section class="section-details-content">
+        <div class="container">
+          <div class="row">
+            <div class="col p-0 pl-3 pl-lg-0"">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item" aria-current="page">
+                   <a href="index.html"> Daftar Wisata </a>
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Detail
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 pl-lg-0">
+              <div class="card card-details">
+                <h1>Umbul Ponggok</h1>
+                <p>
+                  Ponggok, Klaten
+                </p>
+                <div class="gallery">
+                  <div class="xzoom-container">
+                    <img
+                      class="xzoom"
+                      id="xzoom-default"
+                      src="frontend/images/details1.jpg"
+                      xoriginal="frontend/images/details1.jpg"
+                    />
+                    <div class="xzoom-thumbs">
+                      <a href="frontend/images/details1.jpg"
+                        ><img
+                          class="xzoom-gallery"
+                          width="128"
+                          src="frontend/images/details1.jpg"
+                          xpreview="frontend/images/details1.jpg"
+                      /></a>
+                      <a href="frontend/images/details2.jpg"
+                        ><img
+                          class="xzoom-gallery"
+                          width="128"
+                          src="frontend/images/details2.jpg"
+                          xpreview="frontend/images/details2.jpg"
+                      /></a>
+                      <a href="frontend/images/details3.jpg"
+                        ><img
+                          class="xzoom-gallery"
+                          width="128"
+                          src="frontend/images/details3.jpg"
+                          xpreview="frontend/images/details3.jpg"
+                      /></a>
+                      <a href="frontend/images/details4.png"
+                        ><img
+                          class="xzoom-gallery"
+                          width="128"
+                          src="frontend/images/details4.png"
+                          xpreview="frontend/images/details4.png"
+                      /></a>
+                    </div>
+                  </div>
+                  <h2>Tentang Wisata</h2>
+                  <p style="text-align: justify;">
+                        &emsp;  &emsp;Umbul Ponggok adalah tempat wisata yang berada di Desa Ponggok Kabupaten Delanggu
+                    yang paling berwarna, karena banyak motif ikan yang ada di dalam kolam umbul ponggok.
+                    Selain itu terdapat spot fotografi yang ada di dalam kolam tersebut, seperti kendaraan 
+                    hingga alat elektronik yang telah usang. 
+                  </p>
+                  <p>
+                    &emsp;  &emsp;Dahulu Umbul Ponggok adalah mata air yang dijadikan sebuah water reservoir yang berfungsi sebagai tampungan
+                     air untuk kebutuhan operasional Pabrik Gula Ponggok dan Pabrik Gula Karanganom, selain itu untuk pengairan
+                     perkebunan tebu di wilayah Polanharjo, Karanganom, Ceper. Setelah pabrik gula tidak beroperasional lagi,
+                      keberadaan water reservoir Ponggok masih difungsikan sebagai pengairan sawah dan perkebunan sampai sekarang. 
+                      Masyarakat sekitar lebih sering menyebutnya Umbul Ponggok (mata air Ponggok) karena sumber airnya memang berasal 
+                      dari mata air alami yang mempunyai kualitas bagus dan untuk kebutuhan air minum warga sekitar. 
+                  </p>
+                  <div class="features row pt-3" data-aos="fade-up" data-aos-duration="4000">
+                    <div class="col-md-4">
+                      <img
+                        src="frontend/images/ic_event.png"
+                        alt=""
+                        class="features-image"
+                      />
+                      <div class="description">
+                        <h3>Ticket</h3>
+                        <p>Rp. 15000</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 border-left">
+                      <img
+                        src="frontend/images/masjid.png"
+                        alt=""
+                        class="features-image"
+                      />
+                      <div class="description">
+                        <h3>Masjid</h3>
+                        <p>Tersedia</p>
+                      </div>
+                    </div>
+                    <div class="col-md-4 border-left">
+                      <img
+                        src="frontend/images/ic_foods.png"
+                        alt=""
+                        class="features-image"
+                      />
+                      <div class="description">
+                        <h3>Makanan</h3>
+                        <p>Tersedia</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card card-details-right align-items-center">
+                <h2>Detail Informasi</h2>
+               <hr size="2px">
+                <h2>Umbul Ponggok</h2>
+                <table class="trip-informations">
+                  <tr>
+                    <th width="50%">Buka</th>
+                    <td width="50%" class="text-right">Senin - Sabtu</td>
+                  </tr>
+                  <tr>
+                    <th width="50%">Waktu</th>
+                    <td width="50%" class="text-right">07.00 - 17.00 WIB</td>
+                  </tr>
+                </table>
+                <hr>
+                <h2>Biaya lain-lain</h2>
+                <table class="trip-informations">
+                  <tr>
+                    <th width="50%">Foto Underwater</th>
+                    <td width="50%" class="text-right">Rp. 60.0000 </td>
+                  </tr>
+                  
+                </table>
+              </div>
+              <div class="join-container">
+                <a href="https://g.page/umbul-ponggok-klaten-jawa-tengah?share" class="btn btn-block btn-join-now mt-3 py-2"
+                  >Lihat Lokasi </a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="section-footer mt-5 mb-4 border-top">
+     
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center align-items-center pt-4"
+        >
+          <div class="col-auto text-gray-500 font-weight-light">
+            2021 Copyright Staycation • All rights reserved • Made in Klaten
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="frontend/libraries/retina/retina.js"></script>
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/xzoom/dist/xzoom.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.xzoom, .xzoom-gallery').xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: '#333',
+          Xoffset: 15
+        });
+      });
+    </script>
+  </body>
+</html>

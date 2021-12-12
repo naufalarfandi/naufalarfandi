@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="frontend/libraries/bootstrap/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="frontend/styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant:200,400,700&&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Semantic elements -->
+    <!-- https://www.w3schools.com/html/html5_semantic_elements.asp -->
+
+    <!-- Bootstrap navbar example -->
+    <!-- https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
+    <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+          <img src="frontend/images/Staycation.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navb"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navb">
+          <ul class="navbar-nav ml-auto mr-3">
+            <li class="nav-item mx-md-2">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="#section-popular">Daftar Wisata</a>
+            </li>
+ 
+          <!-- Mobile button -->
+        </div>
+      </nav>
+    </div>
+    <header class="text-center">
+      <div id="typed-strings">
+      <h1>
+        Selamat Datang Di Desa Ponggok
+        <br />
+        
+      </h1>
+      <p class="mt-3">
+        Berbagai Tempat Wisata Air 
+ 
+        <br />
+        Yang Belum Pernah Anda Kunjungi Sebelumnya
+      </p>
+    </div>
+      <a href="#section-popular" class="btn btn-get-started px-4 mt-4">
+        Jelajah
+      </a>
+      <span id="typed"></span>
+    </header>
+    <main>
+      <section class="section-popular" id="section-popular">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col text-center section-popular-heading">
+              <h2>Wisata Popular</h2>
+              <p>
+                Wisata populer yang berada di desa ponggok
+                <br />
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-popular-content" id="popularContent">
+        <div class="container">
+          <div class="section-popular-travel row justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column"
+                style="background-image: url('frontend/images/details1.jpg');" data-aos="fade-up" data-aos-duration="1000"
+              >
+                <div class="travel-country">INDONESIA</div>
+                <div class="travel-location">UMBUL PONGGOK</div>
+                <div class="travel-button mt-auto">
+                  <a href="details-ponggok.html" class="btn btn-travel-details px-4">
+                    Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column" 
+                style="background-image: url('frontend/images/besuki2.jpg');" data-aos="fade-up" data-aos-duration="2000"
+              >
+                <div class="travel-country">INDONESIA</div>
+                <div class="travel-location">UMBUL BESUKI</div>
+                <div class="travel-button mt-auto">
+                  <a href="details-besuki.html" class="btn btn-travel-details px-4">
+                    Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column"
+                style="background-image: url('frontend/images/kapilaler2 1.png');" data-aos="fade-up" data-aos-duration="3000"
+              >
+                <div class="travel-country">INDONESIA</div>
+                <div class="travel-location">UMBUL KAPILALER</div>
+                <div class="travel-button mt-auto">
+                  <a href="details-kapilaler.html" class="btn btn-travel-details px-4">
+                    Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column"
+                style="background-image: url('frontend/images/alam1.jpg');" data-aos="fade-up" data-aos-duration="3000"
+              >
+                <div class="travel-country">INDONESIA</div>
+                <div class="travel-location">KOLAM TIRTA ALAM</div>
+                <div class="travel-button mt-auto">
+                  <a href="details-tirto.html" class="btn btn-travel-details px-4">
+                   Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-networks" id="networks">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2>We Work With</h2>
+              <p>
+               Kami Bekerja Sama Dengan 
+                <br />
+                Pengelola Wisata Desa Ponggok
+              </p>
+            </div>
+            <div class="col-md-8 text-center">
+              <img src="frontend/images/ponggok.png" class="img-patner" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimonials-heading" id="testimonialsHeading" data-aos="fade-up">
+        <div class="container" >
+          <div class="row" >
+            <div class="col text-center">
+              <h2>They Are Loving Us</h2>
+              <p>
+                Cerita dari mereka yang 
+                <br />
+                pernah mengunjungi wisata
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimonials-content" id="testimonialsContent" data-aos="fade-up" data-aos-duration="1500">
+        <div class="container">
+          <div
+            class="section-popular-travel row justify-content-center match-height"
+          >
+            <div class="col-sm-6 col-md-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <img
+                    src="frontend/images/user_pic.png"
+                    alt=""
+                    class="mb-4 rounded-circle"
+                  />
+                  <h3 class="mb-4">Naufal Arfandi</h3>
+                  <p class="testimonials">
+                    “ Tempatnya sangat sejuk, terutama di umbul besuki 
+                    banyak pepohonan dan persawahan “
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">Umbul Besuki</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <img
+                    src="frontend/images/avatar-2.png"
+                    alt=""
+                    class="mb-4 rounded-circle"
+                  />
+                  <h3 class="mb-4">Shayna</h3>
+                  <p class="testimonials">
+                    “ The trip was amazing and I saw something beautiful in that
+                    Island that makes me want to learn more “
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">Umbul Ponggok</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content mb-auto">
+                  <img
+                    src="frontend/images/avatar-3.png"
+                    alt=""
+                    class="mb-4 rounded-circle"
+                  />
+                  <h3 class="mb-4">Shabrina</h3>
+                  <p class="testimonials">
+                    “ I loved it when the waves was shaking harder — I was
+                    scared too “
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">Umbul kapilaler</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center">
+              <a href="#" class="btn btn-need-help px-4 mt-4 mx-1">
+                Butuh Bantuan
+              </a>
+              <a href="#" class="btn btn-get-started px-4 mt-4 mx-1">
+                Jelajah
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="section-footer mt-5 mb-4 border-top">
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center align-items-center pt-4"
+        >
+          <div class="col-auto text-gray-500 font-weight-light">
+            2021 Copyright Staycation • All rights reserved • Made in Klaten
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="frontend/libraries/retina/retina.js"></script>
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script>
+      $('document').ready(function(){
+        var typed = new Typed('#typed' ,{
+          stringsElement: '#typed-strings'
+        });
+      });
+    </script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+  </body>
+</html>
